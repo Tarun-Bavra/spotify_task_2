@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <main>
+    <main class="d-flex">
       <!-- nav  -->
       <nav>
         <img
@@ -56,56 +56,189 @@
         </div>
         <img id="bottom-img" src="./assets/nav-bottom-img.svg" />
       </nav>
-      <!-- upper section -->
-      <section id="upper">
-        <hero id="hero">
-          <img id="hero-img" src="./assets/sp-hero-img.svg" />
-          <div id="hero-text">
-            <div id="hero-text-1">
-              <p id="p-1">PLAYLIST</p>
-              <p id="p-2">Pop Right Now</p>
-              <p id="p-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
-              </p>
+      <!-- upper hero section -->
+      <div id="hero-container">
+        <section id="upper">
+          <hero id="hero">
+            <img id="hero-img" src="./assets/sp-hero-img.svg" />
+            <div id="hero-text">
+              <div id="hero-text-1">
+                <p id="p-1">PLAYLIST</p>
+                <p id="p-2">Pop Right Now</p>
+                <p id="p-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Rhoncus
+                </p>
+              </div>
+              <div id="hero-text-2">
+                <p id="p-1a">Spotify</p>
+                <img class="dot-img" src="./assets/hero-dot.svg" />
+                <p class="p-2a">860,305 likes</p>
+                <img class="dot-img" src="./assets/hero-dot.svg" />
+                <p class="p-2a">100 songs, 5 hr 5 min</p>
+              </div>
             </div>
-            <div id="hero-text-2">
-              <p id="p-1a">Spotify</p>
-              <img class="dot-img" src="./assets/hero-dot.svg" />
-              <p class="p-2a">860,305 likes</p>
-              <img class="dot-img" src="./assets/hero-dot.svg" />
-              <p class="p-2a">100 songs, 5 hr 5 min</p>
+          </hero>
+          <!-- hero-bottom -->
+          <div id="hero-bottom">
+            <div id="play">
+              <img id="play-img" src="./assets/play-img.svg" />
+              <img id="play-heart" src="./assets/heart-play.svg" />
+              <img id="play-three-dots" src="./assets/three-dots.svg" />
+            </div>
+            <!-- tittle -->
+            <div id="tittle">
+              <img src="./assets/hash.svg" />
+              <p id="tittle-p1">TITLE</p>
+              <p id="tittle-p2">ALBUM</p>
+              <p id="tittle-p3">DATE ADDED</p>
             </div>
           </div>
-        </hero>
-        <!-- hero-bottom -->
-        <div id="hero-bottom">
-          <div id="play">
-            <img id="play-img" src="./assets/play-img.svg" />
-            <img id="play-heart" src="./assets/heart-play.svg" />
-            <img id="play-three-dots" src="./assets/three-dots.svg" />
-          </div>
-          <!-- tittle -->
-          <div id="tittle">
-            <img src="./assets/hash.svg" />
-            <p id="tittle-p1">TITLE</p>
-            <p id="tittle-p2">ALBUM</p>
-            <p id="tittle-p3">DATE ADDED</p>
-          </div>
-        </div>
-        <!-- upper-section ends -->
-      </section>
-      <!-- grid-section -->
-      <section id="grid-section">
-        <img src="./assets/grid-triangle.svg" id="gridplay" />
-        <img src="./assets/grid-img1.svg" id="grid-img1" />
-        <div id="grid-1-p">
-          <p>We’re Good</p>
-          <p>Dua Lipa</p>
-        </div>
-      </section>
-
-      
+          <!-- upper-section ends -->
+        </section>
+        <!-- grid-section -->
+        <section id="grid-section">
+          <!-- grid-section-1 -->
+          <section id="grid-section-1">
+            <img id="gridplay" src="./assets/grid-triangle.svg" />
+            <img
+              id="grid-img1"
+              class="mt-1 me-3"
+              width="38px"
+              height="48px"
+              src="./assets/grid-img1.svg"
+            />
+            <div id="grid-1-p" class="me-5">
+              <p id="grid-1p1" class="mt-2 mb-2">We’re Good</p>
+              <p id="grid-1p2" class="mb-">Dua Lipa</p>
+            </div>
+            <p id="grid-p">Future Nostalgia (The Moonlight Edition)</p>
+            <img id="four-img" src="./assets/grid-four-img.svg" />
+            <img id="grid-chinese-img" src="./assets/grid-chinese.svg" />
+            <img id="heart-grid" src="./assets/grid-heart.svg" />
+            <img id="time-grid" src="./assets/time.svg" />
+            <img id="three-dot-grid" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- grid-section-2 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">2</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- grid-section-3 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">3</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- section-4 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">4</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- section-5 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">5</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- section-6 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">6</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- section-7 -->
+          <section id="grid-section-2">
+            <p id="grid-section-2-p">7</p>
+            <img id="grid-img-2" src="./assets/grid-img-2.svg" />
+            <div id="grid-2-p-a">
+              <p id="grid-2-p1">We’re Good</p>
+              <p id="grid-2-p2">Dua Lipa</p>
+            </div>
+            <p id="grid-2p-b">Future Nostalgia (The Moonlight Edition)</p>
+            <p id="grid-2-four-p">4</p>
+            <p id="grid-2-chinese-p">일 전</p>
+            <!-- <img id="grid-2-heart-img" src="./assets/grid-heart.svg" /> -->
+            <p id="grid-2-time">2:45</p>
+            <img id="grid-2-threedots" src="./assets/grid-three-dots.svg" />
+          </section>
+          <!-- grid-section ends -->
+        </section>
+      </div>
     </main>
+    <!-- footer -->
+    <footer>
+      <img id="task-2-footer-img" src="./assets/task-2-footer-img.svg" />
+      <div id="footer-p">
+        <p id="footer-p-1">Hold On</p>
+        <p id="footer-p-2">Justin Bieber</p>
+      </div>
+      <img id="footer-heart" src="./assets/task-2-footer-heart.svg" />
+      <img id="footer-ic" src="./assets/task-2-footer-ic.svg" />
+      <div id="footer-play">
+        <div id="footer-play-upper">
+          <img id="shuffle" src="./assets/task-2-shuffle.svg" />
+          <img id="back-btn" src="./assets/back.svg" />
+          <img id="play-btn" src="./assets/task-2-footer-play.svg" />
+          <img id="next-btn" src="./assets/forward.svg" />
+          <img id="repeat" src="./assets/task-2-footer-repeat.svg" />
+        </div>
+        <div id="footer-vol">
+          <p id="footer-time1">0:00</p>
+          <img id="footer-vol-img" src="./assets/task-2-footer-vol.svg" />
+          <p id="footer-time2">2:50</p>
+        </div>
+      </div>
+      <img id="footer-group-img" src="./assets/task-2-footer-group-img.svg" />
+    </footer>
+    <!-- footer-ends -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
